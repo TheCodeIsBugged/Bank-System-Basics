@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class BankTransaction : MonoBehaviour
 {
-    public Bank currentBank;
-    public Player currentClient;
-    public Client currentClientAccount;
-    public bool inBank = false;
-    public bool isClient = false;
-    public bool isCorrectPin = false;
+    private Bank currentBank;
+    private Player currentClient;
+    private Client currentClientAccount;
+    private bool inBank = false;
+    private bool isClient = false;
+    private bool isCorrectPin = false;
 
     private void Update()
     {
